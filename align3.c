@@ -1,0 +1,29 @@
+#include<stdio.h>
+void main()
+ {
+  int i,j,n,s;
+  scanf("%d",&n);
+  scanf("%d",&s);
+  printf("\n");
+   for(i=1;i<=n;i++)
+    {
+     for(j=1;j<=i;j++)
+      {
+       printf("%d",s);
+      }
+     s++;
+     printf("\n");
+   }
+  j=1;
+  s--;
+   for(i=n;i>=1;i--)
+    {
+     for(j=1;j<=i;j++)
+      {
+       printf("%d",s);
+       n--;
+      }
+     s--;
+     printf("\n");
+   }
+ }
